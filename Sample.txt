@@ -5,6 +5,8 @@ public class EmployeeDetails {  //Class Name
 		
 		byte a = 127;
 		System.out.println(a);
+		int b = 5678;
+		System.out.println(b);
 	
 	}
 	public void empId() {
