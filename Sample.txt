@@ -1,0 +1,19 @@
+public class EmployeeDetails {  //Class Name
+	
+	public void empName() {   //Method 
+		System.out.println("Employee Name is Aravind");
+		
+		byte a = 127;
+		System.out.println(a);
+	
+	}
+	public void empId() {
+		System.out.println("Employee ID is 456");
+	}
+	public static void main(String[] args) {  //Main method
+		EmployeeDetails e = new EmployeeDetails();  //Object
+		e.empName();
+		e.empId();
+		
+	}
+  }
